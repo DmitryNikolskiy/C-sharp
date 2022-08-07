@@ -1,5 +1,7 @@
 ﻿// Сумма двух целых чисел
-int numberA = 31;
-int numberB = 5;
+int numberA = new Random().Next(1,10); // случайное число от 1 до 9 включительно
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1,25); // случайное число от 1 до 24 включительно
+Console.WriteLine(numberB);
 int result = numberA + numberB;
 Console.WriteLine(result);
